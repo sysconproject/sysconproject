@@ -1,46 +1,56 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <title>Bloggie</title>
     <meta charset="utf-8">
-    <title>Currency Converter App in JavaScript | CodingNepal</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6243565463190449"
-     crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>Currency Converter</header>
-      <form action="#">
-        <div class="amount">
-          <p>Enter Amount</p>
-          <input type="text" value="1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Bloggie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="./chatgpt.html">Tech News</a>
+            </li>
+        </ul>
         </div>
-        <div class="drop-list">
-          <div class="from">
-            <p>From</p>
-            <div class="select-box">
-              <img src="https://flagcdn.com/48x36/us.png" alt="flag">
-              <select>  </select>
+    </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 bg-light text-white"></div>
+            <div class="col-sm-8 bg-white text-white">
+                <div class="mt-4 p-5 bg-primary text-white rounded">
+                    <h1>Welcome to Bloggie</h1>
+                    <p>Your Tech Heaven! Stay updated with the latest tech trends, gadgets, 
+                        and innovations. Geek out with us!</p>
+                </div>
+
+                <div class="mt-4 p-5 bg-light text-dark rounded">
+                    <h3>Build a ChatGPT App from Scratch - Android Developers, this is for You</h3>
+                    <p>Your Tech Heaven! Stay updated with the latest tech trends, gadgets, 
+                        and innovations. Geek out with us!In this tutorial, we will be building a ChatGPT App for Android using Firebase. We will be learning how to create a new project, add Firebase to it, configure it, configure the App Manifest, add the required permissions, and add the ChatGPT API integrations. We will finish the tutorial by adding a chat widget to our App. So if you are looking to build a ChatGPT App for Android, then this is the tutorial for you!</p>
+                    <img src="./images/mpZ6xbqlVlI-HD.jpg" class="rounded" alt="chatGpt Thumbnail" width="100%">   
+                    <div class="d-grid gap-3">
+                        <button type="submit" class="btn btn-dark btn-block mt-3"><a href="./chatgpt.html" style="text-decoration: none; color: white;">Read More</a></button>
+                    </div> 
+                </div>
             </div>
-          </div>
-          <div class="icon"><i class="fas fa-exchange-alt"></i></div>
-          <div class="to">
-            <p>To</p>
-            <div class="select-box">
-              <img src="https://flagcdn.com/48x36/np.png" alt="flag">
-              <select>  </select>
-            </div>
-          </div>
+            <div class="col-sm-2 bg-light text-white"></div>
         </div>
-        <div class="exchange-rate">Getting exchange rate...</div>
-        <button>Get Exchange Rate</button>
-      </form>
     </div>
 
-    <script src="js/country-list.js"></script>
-    <script src="js/script.js"></script>
+    </body>
+    </html>
 
-  </body>
-</html>
+
